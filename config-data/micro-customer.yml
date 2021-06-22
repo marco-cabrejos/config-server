@@ -6,7 +6,7 @@ spring:
     name: micro-customer
   data:
     mongodb:
-      uri: mongodb://localhost:15200/customer
+      uri: mongodb://localhost:12500/customer
 
 kafka:
   server:
