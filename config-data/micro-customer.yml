@@ -3,10 +3,10 @@ server:
   
 spring:
   application:
-    name: customer
+    name: micro-customer
   data:
     mongodb:
-      uri: mongodb://localhost:27017/customer
+      uri: mongodb://localhost:15200/customer
 
 kafka:
   server:
