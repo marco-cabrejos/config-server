@@ -1,0 +1,17 @@
+server:
+  port: 8098
+  
+spring:
+  application:
+    name: credit-payment-service
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/payment
+      
+topic:
+  name: credit-payment-topic
+  partitions: 1
+  replicas: 1
+
+kafka:
+  uri: localhost:9092

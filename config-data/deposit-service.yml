@@ -1,0 +1,17 @@
+server:
+  port: 8096
+  
+spring:
+  application:
+    name: deposit-service
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/deposit
+      
+topic:
+  name: deposit-topic
+  partitions: 1
+  replicas: 1
+
+kafka:
+  uri: localhost:9092

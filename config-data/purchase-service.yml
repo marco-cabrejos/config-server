@@ -1,0 +1,17 @@
+server:
+  port: 8092
+  
+spring:
+  application:
+    name: purchase-service
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/purchase
+
+topic:
+  name: purchase-topic
+  partitions: 1
+  replicas: 1
+
+kafka:
+  uri: localhost:9092
