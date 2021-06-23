@@ -1,9 +1,0 @@
-server:
-  port: 8091
-  
-spring:
-  application:
-    name: product
-  data:
-    mongodb:
-      uri: mongodb://localhost:27017/product
