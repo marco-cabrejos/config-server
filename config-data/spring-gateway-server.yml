@@ -18,22 +18,33 @@ spring:
         predicates:
         - Path=/customer/**
       - id: product-service
-        uri: http://localhost:8091/
+        uri: lb://micro-product
         predicates:
         - Path=/product/**
-#      - id: purchase-service
-#        uri: http://localhost:8092/
-#        predicates:
-#        - Path=/purchase/**
-#      - id: transaction-service
-#        uri: http://localhost:8093/
-#        predicates:
-#        - Path=/transaction/**
-#      - id: account-service
-#        uri: http://localhost:8094/
-#        predicates:
-#        - Path=/account/**
-#      - id: withdrawal-service
-#        uri: http://localhost:8095/
-#        predicates:
-#        - Path=/withdrawal/**
+      - id: purchase-service
+        uri: lb://micro-purchase
+        predicates:
+        - Path=/purchase/**
+      - id: transaction-service
+        uri: lb://micro-transaction
+        predicates:
+        - Path=/transaction/**
+      - id: account-service
+        uri: lb://micro-account
+        predicates:
+        - Path=/account/**
+      - id: withdrawal-service
+        uri: lb://micro-withdrawal
+        predicates:
+        - Path=/withdrawal/**
+      - id: micro-credit-consumer
+        uri: lb://micro-credit-consumer
+        predicates:
+        - Path=/credit/**
+      - id: micro-credit-payment
+        uri: lb://micro-credit-payment
+        predicates:
+        - Path=/payment/**
+        
+        
+        

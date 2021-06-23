@@ -1,12 +1,12 @@
 server:
-  port: 8090
+  port: 8092
   
 spring:
   application:
-    name: micro-customer
+    name: micro-purchase
   data:
     mongodb:
-      uri: mongodb://localhost:27017/customer
+      uri: mongodb://localhost:12500/purchase
 
 kafka:
   server:
@@ -17,4 +17,3 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8099/eureka/
-
