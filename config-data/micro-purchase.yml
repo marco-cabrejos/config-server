@@ -7,6 +7,8 @@ spring:
   data:
     mongodb:
       uri: mongodb://localhost:12500/purchase
+  kafka:
+    bootstrap-servers: localhost:29092
 
 kafka:
   server:
