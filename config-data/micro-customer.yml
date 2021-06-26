@@ -15,7 +15,6 @@ kafka:
     hostname: localhost
     port: 29092
     
-
 eureka:
   client:
     serviceUrl:
