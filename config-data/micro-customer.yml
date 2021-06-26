@@ -6,12 +6,12 @@ spring:
     name: micro-customer
   data:
     mongodb:
-      uri: mongodb://localhost:27017/customer
+      uri: mongodb://localhost:12500/customer
 
 kafka:
   server:
     hostname: localhost
-    port: 9092
+    port: 29092
 
 eureka:
   client:

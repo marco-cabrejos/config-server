@@ -6,12 +6,12 @@ spring:
     name: micro-credit-consumer
   data:
     mongodb:
-      uri: mongodb://localhost:27017/credit
+      uri: mongodb://localhost:12500/credit
       
 kafka:
   server:
     hostname: localhost
-    port: 9092
+    port: 29092
 
 eureka:
   client:

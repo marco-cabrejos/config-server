@@ -6,12 +6,12 @@ spring:
     name: micro-deposit
   data:
     mongodb:
-      uri: mongodb://localhost:27017/deposit
+      uri: mongodb://localhost:12500/deposit
       
 kafka:
   server:
     hostname: localhost
-    port: 9092
+    port: 29092
 
 eureka:
   client:

@@ -11,7 +11,7 @@ spring:
 kafka:
   server:
     hostname: localhost
-    port: 9092
+    port: 29092
 
 eureka:
   client:
