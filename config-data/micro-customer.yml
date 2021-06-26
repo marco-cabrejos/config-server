@@ -12,6 +12,7 @@ kafka:
   server:
     hostname: localhost
     port: 29092
+    bootstrap-servers: localhost:29092
 
 eureka:
   client:
