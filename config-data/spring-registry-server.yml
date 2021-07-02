@@ -5,7 +5,7 @@ management:
     port: ${server.port}
 eureka:
   instance:
-    hostname: marcab-spring-registry-server.azurewebsites.net
+    hostname: marcab-spring-eureka-server.azurewebsites.net
     secure-port-enabled: true
     nonSecurePort: 80
     securePort: 443
