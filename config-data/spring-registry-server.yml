@@ -3,7 +3,7 @@ server:
   
 eureka:
   instance:
-    hostname: marcab-spring-registry-server.azurewebsites.net
+    hostname: localhost
   client:
     registerWithEureka: false
     fetchRegistry: false
