@@ -3,10 +3,10 @@ server:
 
 eureka:
   instance:
-    hostname: 192.168.16.113
+    hostname: marcab-spring-eureka-server.azurewebsites.net
   client:
     serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:8099/eureka/
+      defaultZone: https://${eureka.instance.hostname}:443/eureka/
 
 spring:
   cloud:
