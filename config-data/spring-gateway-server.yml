@@ -16,7 +16,8 @@ spring:
           enabled: true
       routes:
       - id: customer-service
-        uri: lb://micro-customer
+        uri: https://microservicio-customer.azurewebsites.net/customer
+#        uri: lb://micro-customer
         predicates:
         - Path=/customer/**
       - id: product-service
