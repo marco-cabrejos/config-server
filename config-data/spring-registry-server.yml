@@ -1,11 +1,11 @@
 server:
-  port: 80
+  port: 8099
 management:
   server:
     port: ${server.port}
 eureka:
   instance:
-    hostname: marcab-spring-eureka-server.azurewebsites.net
+    hostname: servidor-eureka.westus.azurecontainer.io
     secure-port-enabled: true
     nonSecurePort: 80
     securePort: 443
