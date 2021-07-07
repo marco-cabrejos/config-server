@@ -11,10 +11,10 @@ spring:
   kafka:
 #    bootstrap-servers: 13.87.186.84:29092
 #    bootstrap-servers: 13.64.20.193:9092
-     bootstrap-servers: 192.168.1.136:9092
+     bootstrap-servers: 52.160.125.8:9092
 kafka:
   server:
-    hostname: 192.168.1.136
+    hostname: 52.160.125.8
     port: 9092
     
 eureka:
