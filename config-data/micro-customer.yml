@@ -1,5 +1,5 @@
 server:
-  port: 80
+  port: 8090
   
 spring:
   application:
@@ -10,11 +10,11 @@ spring:
       uri: mongodb://bootcamb-db:uMamqpjJ0iG4gPsLyJXEAaqfW8685r2SEWaIYmBvtH9aYigkhka31qHcEazga17iyFoWmkEHbZNQRpQAUdTnbg==@bootcamb-db.mongo.cosmos.azure.com:10255/customer?ssl=true&retrywrites=false&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@bootcamb-db@      
   kafka:
 #    bootstrap-servers: 13.87.186.84:29092
-    bootstrap-servers: 13.64.20.193:9092
-
+#    bootstrap-servers: 13.64.20.193:9092
+     bootstrap-servers: 192.168.1.136:9092
 kafka:
   server:
-    hostname: 13.64.20.193
+    hostname: 192.168.1.136
     port: 9092
     
 eureka:
