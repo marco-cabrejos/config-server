@@ -17,9 +17,10 @@ eureka:
   client:
     serviceUrl:
       defaultZone: https://servidor-eureka.azurewebsites.net/eureka/
-    register-with-eureka: true
-    fetch-registry: true
+#    register-with-eureka: true
+#    fetch-registry: true
   instance:
+    instance-id: micro-customer
     prefer-ip-address: false
-    hostname: micro-customer.azurewebsites.net
+    hostname: https://micro-customer.azurewebsites.net
 
