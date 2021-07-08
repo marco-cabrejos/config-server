@@ -19,4 +19,4 @@ eureka:
     fetch-registry: true
   instance:
     prefer-ip-address: false
-    hostname: micro-product.azurewebsites.net
+    hostname: micro-purchase.azurewebsites.net
