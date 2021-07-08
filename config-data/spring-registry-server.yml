@@ -4,6 +4,8 @@ management:
   server:
     port: ${server.port}
 eureka:
+  server:
+    enableSelfPreservation: false
   instance:
     hostname: servidor-eureka.azurewebsites.net
     secure-port-enabled: true
